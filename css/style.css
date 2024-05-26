@@ -73,6 +73,7 @@ p {
 }
 .header-navigation {
   display: flex;
+  align-items: center;
   margin-right: auto;
 }
 .logo-link {
@@ -97,8 +98,6 @@ p {
   gap: 40px;
 }
 .header-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-link {
   font-weight: 500;
@@ -106,6 +105,8 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 
   display: block;
 }
@@ -144,10 +145,10 @@ p {
 /* Hero Section */
 .hero {
   background: #2e2f42;
-}
-.hero-container {
   padding-top: 188px;
   padding-bottom: 188px;
+}
+.hero-container {
 }
 .hero-title {
   font-weight: 700;
@@ -157,6 +158,10 @@ p {
   text-align: center;
   color: #fff;
 
+  display: block;
+  margin: auto;
+
+  max-width: 496px;
   margin-bottom: 48px;
 }
 .hero-btn {
@@ -170,7 +175,11 @@ p {
   display: block;
   margin: 0 auto;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
   border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -236,7 +245,8 @@ p {
 }
 .team-member-description {
   text-align: center;
-  padding: 32px 16px;
+  /* padding: 32px 16px; */
+  padding: 32px 0;
 }
 .team-member-title {
   margin-bottom: 8px;
@@ -285,7 +295,15 @@ p {
   padding-bottom: 100px;
 }
 .logo-link-footer {
-  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+
+  display: inline-block;
   margin-bottom: 16px;
 }
 
